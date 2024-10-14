@@ -61,7 +61,7 @@ const Home = ({ selectedCategory }) => {
       <div
         className="grid"
         style={{
-          marginTop: "64px",
+          marginTop: "85px",
           display: "grid",
           gridTemplateColumns: "repeat(auto-fit, minmax(250px, 1fr))",
           gap: "20px",
@@ -135,7 +135,7 @@ const Home = ({ selectedCategory }) => {
                     <div>
                       <h5
                         className="card-title"
-                        style={{ margin: "0 0 10px 0", fontSize: "1.2rem" }}
+                        style={{ margin: "0 0 0 0", fontSize: "1.2rem" }}
                       >
                         {name.toUpperCase()}
                       </h5>
@@ -146,11 +146,11 @@ const Home = ({ selectedCategory }) => {
                         {"~ " + brand}
                       </i>
                     </div>
-                    <hr className="hr-line" style={{ margin: "10px 0" }} />
+                    <hr className="hr-line" style={{ margin: "12px 0 0px" }} />
                     <div className="home-cart-price">
                       <h5
                         className="card-text"
-                        style={{ fontWeight: "600", fontSize: "1.1rem",marginBottom:'5px' }}
+                        style={{ fontWeight: "600", fontSize: "1.1rem",marginBottom:'13px' }}
                       >
                         <i class="bi bi-currency-rupee"></i>
                         {price}
@@ -158,7 +158,7 @@ const Home = ({ selectedCategory }) => {
                     </div>
                     <button
                       className="btn-hover color-9"
-                      style={{margin:'10px 25px 0px '  }}
+                      style={{margin:'5px 25px 0px '  }}
                       onClick={(e) => {
                         e.preventDefault();
                         addToCart(product);

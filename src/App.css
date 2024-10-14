@@ -115,7 +115,17 @@
 .search-result-link:hover {
   text-decoration: underline;
 } 
+.cart {
+  margin-right: 10px ;
+}
 
+
+/* <---------------------------------------------------------------------------------------------------------->  */
+
+
+
+
+/* <---------------------------------------------------------------------------------------------------------->  */
 /* <..........................................................................................................>  */
 h1{
   color: var(--para-clr);
@@ -233,6 +243,29 @@ padding-top: 100px;
   color: #524c4c;
 
 }
+
+
+.navbar-nav .nav-link {
+  margin-left: 50px; 
+}
+
+ .navbar-nav .dropdown-toggle {
+  margin-left: 50px;
+}
+
+ .theme-btn {
+  margin-left: 50px;
+}
+
+.cart {
+  margin-left: 50px;
+}
+
+
+/* .form-control {
+  margin-left: 50px; 
+}  */
+
 .btn-primary{ 
   border-radius: 5px;
   cursor: pointer;
@@ -255,6 +288,9 @@ padding-top: 100px;
   border-radius: 5%;
   margin: 100px;
 }
+/* .card:hover {
+  box-shadow: blue;
+} */
 
 /* <---------------------------------------Product CSS--------------------------------------------------------------> */
 
